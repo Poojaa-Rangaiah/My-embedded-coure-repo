@@ -1,0 +1,34 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"4 C:\Users\Poojaa Rangaiah\OneDrive\Desktop\ClassRoom\LED_no_BSP.X\LED_noBSP.c
+[v _main main `(v  1 e 1 0 ]
+"24
+[v _init init `(v  1 e 1 0 ]
+"2
+[v _dirB dirB `*.39uc  1 e 2 0 ]
+[v _dataB dataB `*.39uc  1 e 2 0 ]
+[v _dirC dirC `*.39uc  1 e 2 0 ]
+[v _dataC dataC `*.39uc  1 e 2 0 ]
+[v _pullup pullup `*.39uc  1 e 2 0 ]
+[v _val val `uc  1 e 1 0 ]
+"4
+[v _main main `(v  1 e 1 0 ]
+{
+"23
+} 0
+"24
+[v _init init `(v  1 e 1 0 ]
+{
+"35
+} 0

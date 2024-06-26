@@ -1,0 +1,79 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"17 C:\Users\Poojaa Rangaiah\OneDrive\Desktop\Task\UART_SLAVE.X\SLAVE.c
+[v _main main `(v  1 e 1 0 ]
+"68
+[v _init init `(v  1 e 1 0 ]
+"89
+[v _cmd cmd `(v  1 e 1 0 ]
+"96
+[v _data data `(v  1 e 1 0 ]
+"103
+[v _delay delay `(v  1 e 1 0 ]
+"278 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"532
+[v _PIR1 PIR1 `VEuc  1 e 1 @12 ]
+"964
+[v _RCSTA RCSTA `VEuc  1 e 1 @24 ]
+"1059
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1066
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1999
+[v _TXSTA TXSTA `VEuc  1 e 1 @152 ]
+"2080
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"16 C:\Users\Poojaa Rangaiah\OneDrive\Desktop\Task\UART_SLAVE.X\SLAVE.c
+[v _x x `uc  1 e 1 0 ]
+[v _TX TX `[5]uc  1 e 5 0 ]
+[v _RX RX `[5]uc  1 e 5 0 ]
+"17
+[v _main main `(v  1 e 1 0 ]
+{
+"67
+} 0
+"68
+[v _init init `(v  1 e 1 0 ]
+{
+"88
+} 0
+"89
+[v _cmd cmd `(v  1 e 1 0 ]
+{
+[v cmd@i i `uc  1 a 1 wreg ]
+[v cmd@i i `uc  1 a 1 wreg ]
+[v cmd@i i `uc  1 a 1 2 ]
+"95
+} 0
+"96
+[v _data data `(v  1 e 1 0 ]
+{
+[v data@i i `uc  1 a 1 wreg ]
+[v data@i i `uc  1 a 1 wreg ]
+[v data@i i `uc  1 a 1 2 ]
+"102
+} 0
+"103
+[v _delay delay `(v  1 e 1 0 ]
+{
+[v delay@x x `ui  1 p 2 0 ]
+"105
+} 0

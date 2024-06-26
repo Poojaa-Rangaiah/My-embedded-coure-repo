@@ -1,0 +1,155 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"8 C:\Users\Poojaa Rangaiah\OneDrive\Desktop\Task\I2C with EEPROM.X\I2C_EEPROM_driver.c
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+"16
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+"19
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+"23
+[v _I2C_Master_RepeatedStart I2C_Master_RepeatedStart `(v  1 e 1 0 ]
+"27
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+"31
+[v _I2C_Master_Write I2C_Master_Write `(uc  1 e 1 0 ]
+"38
+[v _I2C_Read_Byte I2C_Read_Byte `(uc  1 e 1 0 ]
+"47
+[v _I2C_ACK I2C_ACK `(v  1 e 1 0 ]
+"52
+[v _I2C_NACK I2C_NACK `(v  1 e 1 0 ]
+"62
+[v _EEPROM_Write EEPROM_Write `(v  1 e 1 0 ]
+"95
+[v _EEPROM_Read EEPROM_Read `(uc  1 e 1 0 ]
+"18 C:\Users\Poojaa Rangaiah\OneDrive\Desktop\Task\I2C with EEPROM.X\I2C_EEPROM_main.c
+[v _main main `(v  1 e 1 0 ]
+"340 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"808
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"815
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1754
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+"1823
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1830
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2378
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"2381
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"2384
+[v _ACKSTAT ACKSTAT `VEb  1 e 0 @1166 ]
+"2636
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"2741
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"2795
+[v _RSEN RSEN `VEb  1 e 0 @1161 ]
+"2810
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"2828
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"2972
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"2975
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"18 C:\Users\Poojaa Rangaiah\OneDrive\Desktop\Task\I2C with EEPROM.X\I2C_EEPROM_main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"42
+} 0
+"8 C:\Users\Poojaa Rangaiah\OneDrive\Desktop\Task\I2C with EEPROM.X\I2C_EEPROM_driver.c
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+{
+[v I2C_Master_Init@baud baud `DCul  1 p 4 0 ]
+"15
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 9 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"62 C:\Users\Poojaa Rangaiah\OneDrive\Desktop\Task\I2C with EEPROM.X\I2C_EEPROM_driver.c
+[v _EEPROM_Write EEPROM_Write `(v  1 e 1 0 ]
+{
+[v EEPROM_Write@add add `ui  1 p 2 1 ]
+[v EEPROM_Write@data data `uc  1 p 1 3 ]
+"75
+} 0
+"95
+[v _EEPROM_Read EEPROM_Read `(uc  1 e 1 0 ]
+{
+"96
+[v EEPROM_Read@Data Data `uc  1 a 1 3 ]
+"95
+[v EEPROM_Read@add add `ui  1 p 2 1 ]
+"113
+} 0
+"38
+[v _I2C_Read_Byte I2C_Read_Byte `(uc  1 e 1 0 ]
+{
+"46
+} 0
+"52
+[v _I2C_NACK I2C_NACK `(v  1 e 1 0 ]
+{
+"56
+} 0
+"31
+[v _I2C_Master_Write I2C_Master_Write `(uc  1 e 1 0 ]
+{
+[v I2C_Master_Write@data data `uc  1 a 1 wreg ]
+[v I2C_Master_Write@data data `uc  1 a 1 wreg ]
+[v I2C_Master_Write@data data `uc  1 a 1 0 ]
+"37
+} 0
+"27
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+{
+"30
+} 0
+"19
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+{
+"22
+} 0
+"23
+[v _I2C_Master_RepeatedStart I2C_Master_RepeatedStart `(v  1 e 1 0 ]
+{
+"26
+} 0
+"47
+[v _I2C_ACK I2C_ACK `(v  1 e 1 0 ]
+{
+"51
+} 0
+"16
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+{
+"18
+} 0

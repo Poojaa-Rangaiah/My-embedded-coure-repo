@@ -1,0 +1,104 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"15 C:\Users\Poojaa Rangaiah\OneDrive\Desktop\Argyn Tech\Task\I2C_I2C.X\I2C_master.c
+[v _main main `(v  1 e 1 0 ]
+"52
+[v _master_wait master_wait `(v  1 e 1 0 ]
+"55
+[v _i2c_master_init i2c_master_init `(v  1 e 1 0 ]
+"62
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+"70
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+"84
+[v _master_byte_write master_byte_write `(uc  1 e 1 0 ]
+"216 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"340
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"532
+[v _PIR1 PIR1 `VEuc  1 e 1 @12 ]
+"808
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"815
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"1255
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @129 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1437
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1754
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+"1823
+[v _SSPADD SSPADD `VEuc  1 e 1 @147 ]
+"1830
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2753
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"2756
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"14 C:\Users\Poojaa Rangaiah\OneDrive\Desktop\Argyn Tech\Task\I2C_I2C.X\I2C_master.c
+[v _arr arr `[10]uc  1 e 10 0 ]
+[v _i i `uc  1 e 1 0 ]
+"15
+[v _main main `(v  1 e 1 0 ]
+{
+"51
+} 0
+"84
+[v _master_byte_write master_byte_write `(uc  1 e 1 0 ]
+{
+[v master_byte_write@write write `uc  1 a 1 wreg ]
+[v master_byte_write@write write `uc  1 a 1 wreg ]
+[v master_byte_write@write write `uc  1 a 1 0 ]
+"90
+} 0
+"70
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+{
+"73
+} 0
+"62
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+{
+"65
+} 0
+"52
+[v _master_wait master_wait `(v  1 e 1 0 ]
+{
+"54
+} 0
+"55
+[v _i2c_master_init i2c_master_init `(v  1 e 1 0 ]
+{
+[v i2c_master_init@baud baud `ul  1 p 4 0 ]
+"61
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 9 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
