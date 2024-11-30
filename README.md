@@ -1,1 +1,1 @@
-# This repo contains all of my experiments' code and simulation files!
+# This repo contains all of my PIC16F877A experiments' code and simulation files!
